@@ -6,5 +6,16 @@
     <color name="teal_200">#FF03DAC5</color>
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
+    <color name="text_black">#FF212121</color>
+    <color name="text_caption">#FF3c3c3c</color>
+    <color name="text_normal">#FF6A6A6A</color>
+    <color name="disabled">#FFAAAAAA</color>
     <color name="white">#FFFFFFFF</color>
+
+    <color name="colorPrimary">#FFFFFFFF</color>
+    <color name="colorSecondary">#FFFFFFFF</color>
+    <color name="divider">#10000000</color>
+    <color name="selected_action_background">#FFF8F8F8</color>
+    <color name="orange">#FFFF6E00</color>
+
 </resources>

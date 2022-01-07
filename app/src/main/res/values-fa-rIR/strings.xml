@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">EARPHONE</string>
+    <string name="ACTION">عملکرد</string>
+    <string name="select_action">انتخاب عملکرد</string>
+    <string name="next">بعدی</string>
+    <string name="next_previous">بعدی/قبلی</string>
+    <string name="previous">قبلی</string>
+    <string name="volume_up_down">صدا زیاد/کم</string>
+    <string name="volume_up">صدا زیاد</string>
+    <string name="volume_down">صدا کم</string>
+    <string name="play_pause">پخش/توقف</string>
+    <string name="details">جزئیات</string>
+    <string name="next_previous_detail">"با انتخاب این گزینه، اگر \n\nالف) موسیقی در حال پخش باشد، موسیقی بعدی پخش خواهد شد. \n\nب) موسیقی متوقف باشد، پخش‌کننده موسیقی به آهنگ قبلی خواهد برگشت. "</string>
+    <string name="next_detail">"با انتخاب این گزینه، چه موسیقی در حال پخش و چه موسیقی در حال توقف باشد، پخش‌کننده موسیقی به آهنگ بعد خواهد رفت. "</string>
+    <string name="previous_detail">"با انتخاب این گزینه، چه موسیقی در حال پخش و چه موسیقی در حال توقف باشد، پخش‌کننده موسیقی به آهنگ قبلی خواهد برگشت. "</string>
+    <string name="volume_up_down_detail">"با انتخاب این گزینه، اگر \n\nالف) موسیقی در حال پخش باشد، صدای پخش‌کننده موسیقی افزایش خواهد یافت. \n\nب) موسیقی متوقف باشد، صدای پخش‌کننده موسیقی کاهش خواهد یافت. . "</string>
+    <string name="volume_up_detail">"با انتخاب این گزینه، چه موسیقی در حال پخش و چه موسیقی در حال توقف باشد، صدای پخش‌کننده موسیقی افزایش خواهد یافت. "</string>
+    <string name="volume_down_detail">"با انتخاب این گزینه، چه موسیقی در حال پخش و چه موسیقی در حال توقف باشد، صدای پخش‌کننده موسیقی کاهش خواهد یافت. "</string>
+    <string name="about">درباره</string>
+    <string name="help">راهنما</string>
+    <string name="help2">راهنما</string>
+    <string name="send_comment">ارسال نظر</string>
+    <string name="other_apps">سایر برنامه‌ها</string>
+    <string name="developer">توسعه‌دهنده: علی خالقی</string>
+    <string name="close">بستن</string>
+    <string name="about2">درباره</string>
+    <string name="help_detail">"به منظور فعالسازی عملکردهای برنامه، هدفون خود را به گوشی همراه متصل کنید و هدفون سمت چپ را دوبار لمس کنید. بعد از لمس کردن، دیالوگ زیر نمایش داده خواهد شد: "</string>
+    <string name="help_detail2">"گزینه «یادآوری انتخاب» را انتخاب کنید و روی آیکون برنامه کلیک کنید. \nحالا می‌توانید عملکرد انتخابی خود را با دوبار لمس کردن هدفون سمت چپ، اجرا کنید. "</string>
+</resources>

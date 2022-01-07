@@ -1,3 +1,29 @@
 <resources>
-    <string name="app_name">Earphone</string>
+    <string name="app_name">EARPHONE</string>
+    <string name="ACTION">ACTION</string>
+    <string name="select_action">SELECT ACTION</string>
+    <string name="next">NEXT</string>
+    <string name="next_previous">NEXT/PREVIOUS</string>
+    <string name="previous">PREVIOUS</string>
+    <string name="volume_up_down">VOLUME UP/DOWN</string>
+    <string name="volume_up">VOLUME UP</string>
+    <string name="volume_down">VOLUME DOWN</string>
+    <string name="play_pause">PLAY/PAUSE</string>
+    <string name="details">DETAILS</string>
+    <string name="next_previous_detail">"By selecting this option, if \n\nA) The music is playing: Next music gets played. \n\nB) The music is paused: The music player goes back to the previous Music. "</string>
+    <string name="next_detail">"By selecting this option whether the music is playing or not, the music player skips to next music. "</string>
+    <string name="previous_detail">"By selecting this option whether the music is playing or not, the music player backs to previous music. "</string>
+    <string name="volume_up_down_detail">"By selecting this option, if \n\nA) The music is playing: The volume of music player increases. \n\nB) The music is paused: The volume of music player reduces. "</string>
+    <string name="volume_up_detail">"By selecting this option whether the music is playing or not, the volume of music player increases. "</string>
+    <string name="volume_down_detail">"By selecting this option whether the music is playing or not, the volume of music player reduces. "</string>
+    <string name="about">About</string>
+    <string name="help">Help</string>
+    <string name="help2">HELP</string>
+    <string name="send_comment">Send Comment</string>
+    <string name="other_apps">Other Apps</string>
+    <string name="developer">DEVELOPER: ALI KHALEGHI</string>
+    <string name="close">CLOSE</string>
+    <string name="about2">ABOUT</string>
+    <string name="help_detail">"To activate app actions, connect your earphone to mobile and double tap on left earphone touch area. After double tap, the following dialog will be shown: "</string>
+    <string name="help_detail2">"Check \"Remember my choice\" and select \"EARPHONE\" app. \nNow you can use your selected custom action on left earphone double tap. "</string>
 </resources>
