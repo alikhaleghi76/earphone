@@ -20,20 +20,21 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:text="@string/app_name"
+            android:textAppearance="@style/TextAppearance.Bold"
             android:textColor="@color/text_black"
             android:textSize="20sp"
             android:textStyle="bold" />
 
         <ImageView
             android:id="@+id/menuButton"
-            android:layout_gravity="end"
             android:layout_width="70dp"
             android:layout_height="70dp"
+            android:layout_gravity="end"
+            android:background="?attr/selectableItemBackground"
             android:clickable="true"
             android:focusable="true"
-            android:background="?attr/selectableItemBackground"
-            android:src="@drawable/ic_menu"
-            android:padding="22dp" />
+            android:padding="22dp"
+            android:src="@drawable/ic_menu" />
 
     </FrameLayout>
 
@@ -51,68 +52,74 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:paddingBottom="64dp"
-            android:layoutDirection="ltr"
-            android:orientation="vertical">
+            android:orientation="vertical"
+            android:paddingBottom="64dp">
 
             <RelativeLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layoutDirection="ltr"
                 android:layout_marginTop="16dp">
 
                 <ImageView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
-                    android:maxHeight="250dp"
                     android:layout_marginHorizontal="32dp"
                     android:adjustViewBounds="true"
+                    android:maxHeight="250dp"
                     android:scaleType="centerInside"
                     android:src="@drawable/earphone" />
 
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:orientation="horizontal"
+                    android:layout_centerInParent="true"
                     android:gravity="center"
+                    android:orientation="horizontal"
                     android:paddingHorizontal="16dp"
-                    android:paddingTop="24dp"
-                    android:layout_centerInParent="true">
+                    android:paddingTop="24dp">
 
                     <TextView
                         android:id="@+id/selectedAction"
                         android:layout_width="60dp"
                         android:layout_height="wrap_content"
                         android:layout_marginHorizontal="16dp"
-                        android:text="@string/next_previous"
-                        android:lines="2"
                         android:ellipsize="marquee"
                         android:gravity="center"
+                        android:lines="2"
+                        android:text="@string/next_previous"
+                        android:textAppearance="@style/TextAppearance.Bold"
                         android:textColor="@color/text_black"
                         android:textSize="11sp"
                         android:textStyle="bold" />
+
                     <View
                         android:layout_width="0dp"
-                        android:layout_weight="1"
                         android:layout_height="1dp"
+                        android:layout_weight="1"
                         android:background="@color/text_black" />
+
                     <View
                         android:layout_width="0dp"
-                        android:layout_weight="0.9"
-                        android:layout_height="1dp" />
-                    <View
-                        android:layout_width="0dp"
-                        android:layout_weight="1"
                         android:layout_height="1dp"
+                        android:layout_weight="0.9" />
+
+                    <View
+                        android:layout_width="0dp"
+                        android:layout_height="1dp"
+                        android:layout_weight="1"
                         android:background="@color/disabled" />
+
                     <TextView
                         android:layout_width="60dp"
                         android:layout_height="wrap_content"
                         android:layout_marginHorizontal="16dp"
-                        android:text="@string/play_pause"
-                        android:lines="2"
                         android:ellipsize="marquee"
                         android:gravity="center"
+                        android:lines="2"
+                        android:text="@string/play_pause"
+                        android:textAppearance="@style/TextAppearance.Bold"
                         android:textColor="@color/disabled"
                         android:textSize="11sp"
                         android:textStyle="bold" />
@@ -128,6 +135,7 @@
                 android:layout_marginHorizontal="16dp"
                 android:layout_marginTop="24dp"
                 android:text="@string/select_action"
+                android:textAppearance="@style/TextAppearance.Bold"
                 android:textColor="@color/text_black"
                 android:textSize="15sp"
                 android:textStyle="bold" />
@@ -136,9 +144,9 @@
                 android:id="@+id/actionRecycler"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:paddingHorizontal="8dp"
-                android:clipToPadding="false"
                 android:layout_marginTop="16dp"
+                android:clipToPadding="false"
+                android:paddingHorizontal="8dp"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent" />
 
@@ -148,9 +156,10 @@
                 android:layout_marginHorizontal="16dp"
                 android:layout_marginTop="48dp"
                 android:text="@string/details"
-                android:textStyle="bold"
+                android:textAppearance="@style/TextAppearance.Bold"
                 android:textColor="@color/text_caption"
-                android:textSize="14sp" />
+                android:textSize="14sp"
+                android:textStyle="bold" />
 
             <TextView
                 android:id="@+id/actionDetail"

@@ -10,6 +10,7 @@ import ali.khaleghi.earphone.ui.dialog.AboutDialog
 import ali.khaleghi.earphone.ui.dialog.HelpDialog
 import ali.khaleghi.earphone.util.vibrate
 import android.app.Activity
+import android.content.Context
 import android.content.Intent
 import android.content.pm.PackageManager
 import android.net.Uri
@@ -17,6 +18,7 @@ import android.os.Bundle
 import android.view.View
 import android.widget.PopupMenu
 import androidx.recyclerview.widget.LinearLayoutManager
+import io.github.inflationx.viewpump.ViewPumpContextWrapper
 import kotlinx.android.synthetic.main.activity_settings.*
 
 
@@ -26,6 +28,10 @@ class SettingsActivity : Activity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_settings)
         initUi()
+    }
+
+    override fun attachBaseContext(newBase: Context) {
+        super.attachBaseContext(ViewPumpContextWrapper.wrap(newBase))
     }
 
     private fun initUi() {

@@ -26,4 +26,6 @@
     <string name="about2">ABOUT</string>
     <string name="help_detail">"To activate app actions, connect your earphone to mobile and double tap on left earphone touch area. After double tap, the following dialog will be shown: "</string>
     <string name="help_detail2">"Check \"Remember my choice\" and select \"EARPHONE\" app. \nNow you can use your selected custom action on left earphone double tap. "</string>
+    <string name="defaultFontPath">fonts/roboto.ttf</string>
+    <string name="boldFontPath">fonts/roboto_bold.ttf</string>
 </resources>
